@@ -1,16 +1,19 @@
-## Hi there 👋
+Awachie Benjamin Amarachi — Personal Website
 
-<!--
-**benjamin-website/benjamin-website** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Welcome to my first personal website — built entirely on my mobile phone using raw HTML and CSS. This project is more than just code; it’s a reflection of my passion for web development, creativity, and the determination to build something meaningful from scratch.
 
-Here are some ideas to get you started:
+🚀 What This Site Includes
+- A smooth-scrolling, multi-section layout  
+- Hero section with my image and name  
+- About Me, Gallery, and Contact sections  
+- Stylish design with animations and responsive elements
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+📱 Why It Matters
+I created this site as part of my journey into tech — learning, experimenting, and sharing my progress with the world. It’s proof that you don’t need fancy tools or expensive gear to start building. Just a phone, a dream, and a little code.
+
+🌐 Live Site
+Visit the live version here:  
+https://benjamin-website.github.io/benjamin-website/
+
+💬 Connect With Me
+- Email: nwabuikwubenjamin52@gmail.com
