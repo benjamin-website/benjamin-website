@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Benjamin's Personal Website</title>
+  <style>
+    /* Reset and base styles */
+    body, html {
+      margin: 0;
+      padding: 0;
+      font-family: Georgia, sans-serif;
+      scroll-behavior: smooth;
+    }
+    /* Navigation Bar */
+    .navbar {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: #2e8b57;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 15px 0;
+      z-index: 1000;
+    }
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+    .navbar a:hover {
+      color: #ffdd57;
+    }
+    /* Hero Section */
+    .hero {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(-45deg, #0000cc, #2e8b57, #8a2be2, #ff4500);
+      background-size: 400% 400%;
+      animation: gradientBG 15s ease infinite;
+      color: white;
+      text-align: center;
+      padding-top: 60px; /* space for navbar */
+    }
+    .hero h1 {
+      font-size: 48px;
+      text-shadow: 0 0 10px #2e8b57, 0 0 20px #2e8b57, 0 0 30px #00ff99;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+    .hero img {
+      border-radius: 50%;
+      width: 200px;
+      border: 5px solid white;
+      margin-bottom: 10px;
+    }
+    .hero .name {
+      color: #2e8b57;
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #2e8b57;
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      border-radius: 8px;
+      border: 2px solid white;
+      animation: pulse 2s infinite;
+    }
+    .button:hover {
+      background-color: #246b45;
+    }
+
+    /* Sections */
+    .section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .about, .contact {
+      background-color: #f4f4f4;
+    }
+    .gallery {
+      background-color: #fff;
+    }
+    .section h2 {
+      color: #2e8b57;
+      margin-bottom: 20px;
+    }
+    .section p {
+      font-size: 18px;
+      color: #333;
+    }
+
+    /* Gallery Images */
+    .gallery img {
+      width: 200px;
+      margin: 10px;
+      border-radius: 10px;
+      border: 3px solid #2e8b57;
+    }
+
+    /* Animations */
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    @keyframes gradientBG {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <h1>Hello, World!</h1>
+    <p>This is my first webpage, built on my phone.</p>
+    
+    <img src=<a href="https://ibb.co/nMdbFShm"><img src="https://i.ibb.co/nMdbFShm/Screenshot-20250617-125936-1750163662204-1750164078557.jpg" alt="Screenshot-20250617-125936-1750163662204-1750164078557" border="0"></a>
+    <div class="name">Nwachinemere-Amara Benjamin Obumneme</div>
+    <a href="#about" class="button">Learn More</a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section about">
+    <h2>About Me</h2>
+    <p>Hi, I'm Benjamin — a creative mind learning web development on my phone. I love turning ideas into digital experiences and sharing my journey with the world.</p>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery" class="section gallery">
+    <h2>Gallery</h2>
+    <img src="https://picsum.photos/id/1015/400/300" alt=""><img src="https://i.ibb.co/9mMzYPZP/light-bulb-4514505-640.webp" alt="light-bulb-4514505-640" border="0"></a>
+    <img src="https://picsum.photos/id/1025/400/300" alt="Gallery Image 2">
+    <img src="https://picsum.photos/id/1035/400/300" alt="Gallery Image 3">
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:yourname@example.com">nwabuikwubenjamin52@gmail.com</a></p>
+    <p>Follow me on <a href="#">Instagram</a> | <a href="#">https://x.com/bossonlyone036?t=K1jxhxOC3QEP6eq9mBRiWQ&s=09</a></p>
+  </section>
+
+</body>
+</html>
